@@ -103,7 +103,7 @@ const ResponseDisplay = ({ response }) => {
                             <div>
                               <span className="text-gray-400">Execution Status:</span>
                               <span className={`ml-2 font-semibold ${
-                                step.execution.success ? 'text-green-300' : 'text-red-300'
+                                step.execution.success ? 'text-green-300' : 'text-red-300 text-xs overflow-x-auto whitespace-pre-wrap break-words'
                               }`}>
                                 {step.execution.message}
                               </span>
